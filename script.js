@@ -1,8 +1,10 @@
 const containerVideos = document.querySelector(".videos__container")
 
-const api = fetch("http://localhost:3000/videos")
-.then(res => res.json())
-.then((videos) => 
+
+async function buscarEMostrarVideos() {
+    const busca = await fetch("http://localhost:3000/videos");
+    const videos = await busca.json();
+
     videos.forEach((video) => {
         containerVideos.innerHTML += `
             <li class="videos__item">
@@ -15,8 +17,6 @@ const api = fetch("http://localhost:3000/videos")
             </li>
         `;
     })
-)
+}
 
-.catch((error) => {
-    containerVideos.innerHTML = `<p>Erro ao carregar os videos: ${error}</p>`;
-})
+buscarEMostrarVideos();
