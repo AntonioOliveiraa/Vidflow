@@ -47,7 +47,7 @@ Vidflow é um projeto desenvolvido para consumir e tratar dados de uma API usand
 
 ## Contribuindo
 
-Atualmente, não estamos aceitando contribuições externas para este projeto.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir `issues` e `pull requests`.
 
 ## Licença
 
