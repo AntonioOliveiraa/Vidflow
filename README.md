@@ -42,6 +42,7 @@ Vidflow é um projeto desenvolvido para consumir e tratar dados de uma API usand
 
 ## Captura de Tela
 
+![Captura de tela da aplicação funcionando](https://github.com/user-attachments/assets/94600b4c-5343-4485-b34b-da9e15e9262b)
 
 
 ## Contribuindo
